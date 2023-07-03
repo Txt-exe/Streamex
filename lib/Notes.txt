@@ -1,0 +1,4 @@
+GUI Will be built in Flutter
+Logic will be built in Python
+server side will be built in Firebase
+IOS will have some objective C capabilities 

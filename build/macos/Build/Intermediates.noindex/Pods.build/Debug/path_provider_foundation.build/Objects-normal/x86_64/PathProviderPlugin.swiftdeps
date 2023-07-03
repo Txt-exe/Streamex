@@ -1,0 +1,533 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PathProviderPlugin"
+provides-nominal:
+- "24path_provider_foundation18PathProviderPluginC"
+provides-member:
+- ["24path_provider_foundation18PathProviderPluginC", ""]
+provides-dynamic-lookup:
+- "getContainerPath"
+- "getDirectoryPath"
+- "register"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "DirectoryType"
+- "FileManager"
+- "FlutterPlugin"
+- "FlutterPluginRegistrar"
+- "NSObject"
+- !private "NSSearchPathForDirectoriesInDomains"
+- "PathProviderApi"
+- !private "PathProviderApiSetup"
+- "PathProviderPlugin"
+- "String"
+- !private "URL"
+- !private "fileManagerDirectoryForType"
+- !private "getDirectory"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["SK", ""]
+- !private ["SK", "first"]
+- !private ["So8NSBundleC", "bundleIdentifier"]
+- !private ["So8NSBundleC", "main"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "PathProviderApiSetup"]
+- !private ["s7CVarArgP", "PathProviderPlugin"]
+- ["s7CVarArgP", "SearchPathDirectory"]
+- !private ["s7CVarArgP", "SearchPathDomainMask"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "containerURL"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileManagerDirectoryForType"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "getContainerPath"]
+- !private ["s7CVarArgP", "getDirectory"]
+- ["s7CVarArgP", "getDirectoryPath"]
+- ["s7CVarArgP", "handle"]
+- ["s7CVarArgP", "handleMethodCall"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "registerWithRegistrar"]
+- !private ["Sl", ""]
+- !private ["Sl", "first"]
+- !private ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "PathProviderApiSetup"]
+- !private ["s28CustomDebugStringConvertibleP", "PathProviderPlugin"]
+- ["s28CustomDebugStringConvertibleP", "SearchPathDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchPathDomainMask"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "containerURL"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileManagerDirectoryForType"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "getContainerPath"]
+- !private ["s28CustomDebugStringConvertibleP", "getDirectory"]
+- ["s28CustomDebugStringConvertibleP", "getDirectoryPath"]
+- ["s28CustomDebugStringConvertibleP", "handle"]
+- ["s28CustomDebugStringConvertibleP", "handleMethodCall"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "registerWithRegistrar"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "PathProviderApiSetup"]
+- !private ["s23CustomStringConvertibleP", "PathProviderPlugin"]
+- ["s23CustomStringConvertibleP", "SearchPathDirectory"]
+- !private ["s23CustomStringConvertibleP", "SearchPathDomainMask"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "containerURL"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fileManagerDirectoryForType"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "getContainerPath"]
+- !private ["s23CustomStringConvertibleP", "getDirectory"]
+- ["s23CustomStringConvertibleP", "getDirectoryPath"]
+- ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "handleMethodCall"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "registerWithRegistrar"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["24path_provider_foundation13DirectoryTypeO", "RawValue"]
+- !private ["24path_provider_foundation13DirectoryTypeO", ""]
+- ["24path_provider_foundation13DirectoryTypeO", "applicationDocuments"]
+- ["24path_provider_foundation13DirectoryTypeO", "applicationSupport"]
+- ["24path_provider_foundation13DirectoryTypeO", "downloads"]
+- ["24path_provider_foundation13DirectoryTypeO", "library"]
+- ["24path_provider_foundation13DirectoryTypeO", "temp"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SQ", "=="]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "PathProviderApiSetup"]
+- !private ["SQ", "PathProviderPlugin"]
+- ["SQ", "SearchPathDirectory"]
+- !private ["SQ", "SearchPathDomainMask"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "appendingPathComponent"]
+- ["SQ", "applicationDocuments"]
+- ["SQ", "applicationSupport"]
+- !private ["SQ", "applicationSupportDirectory"]
+- !private ["SQ", "bundleIdentifier"]
+- !private ["SQ", "cachesDirectory"]
+- !private ["SQ", "containerURL"]
+- !private ["SQ", "default"]
+- !private ["SQ", "documentDirectory"]
+- ["SQ", "downloads"]
+- !private ["SQ", "downloadsDirectory"]
+- !private ["SQ", "fileManagerDirectoryForType"]
+- !private ["SQ", "first"]
+- ["SQ", "getContainerPath"]
+- !private ["SQ", "getDirectory"]
+- ["SQ", "getDirectoryPath"]
+- ["SQ", "handle"]
+- ["SQ", "handleMethodCall"]
+- !private ["SQ", "init"]
+- ["SQ", "library"]
+- !private ["SQ", "libraryDirectory"]
+- !private ["SQ", "main"]
+- !private ["SQ", "path"]
+- ["SQ", "register"]
+- ["SQ", "registerWithRegistrar"]
+- ["SQ", "temp"]
+- !private ["SQ", "userDomainMask"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["So13NSFileManagerC", "SearchPathDirectory"]
+- !private ["So13NSFileManagerC", "SearchPathDomainMask"]
+- !private ["So13NSFileManagerC", "containerURL"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13FlutterPluginP", "Bundle"]
+- !private ["So13FlutterPluginP", "FileManager"]
+- !private ["So13FlutterPluginP", "PathProviderApiSetup"]
+- !private ["So13FlutterPluginP", "PathProviderPlugin"]
+- !private ["So13FlutterPluginP", "URL"]
+- ["So13FlutterPluginP", ""]
+- ["So13FlutterPluginP", "deinit"]
+- !private ["So13FlutterPluginP", "fileManagerDirectoryForType"]
+- ["So13FlutterPluginP", "getContainerPath"]
+- !private ["So13FlutterPluginP", "getDirectory"]
+- ["So13FlutterPluginP", "getDirectoryPath"]
+- ["So13FlutterPluginP", "handle"]
+- ["So13FlutterPluginP", "handleMethodCall"]
+- ["So13FlutterPluginP", "init"]
+- ["So13FlutterPluginP", "register"]
+- ["So13FlutterPluginP", "registerWithRegistrar"]
+- !private ["So22FlutterPluginRegistrarP", "messenger"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "PathProviderApiSetup"]
+- !private ["SH", "PathProviderPlugin"]
+- ["SH", "SearchPathDirectory"]
+- !private ["SH", "SearchPathDomainMask"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "appendingPathComponent"]
+- ["SH", "applicationDocuments"]
+- ["SH", "applicationSupport"]
+- !private ["SH", "applicationSupportDirectory"]
+- !private ["SH", "bundleIdentifier"]
+- !private ["SH", "cachesDirectory"]
+- !private ["SH", "containerURL"]
+- !private ["SH", "default"]
+- !private ["SH", "documentDirectory"]
+- ["SH", "downloads"]
+- !private ["SH", "downloadsDirectory"]
+- !private ["SH", "fileManagerDirectoryForType"]
+- !private ["SH", "first"]
+- ["SH", "getContainerPath"]
+- !private ["SH", "getDirectory"]
+- ["SH", "getDirectoryPath"]
+- ["SH", "handle"]
+- ["SH", "handleMethodCall"]
+- !private ["SH", "init"]
+- ["SH", "library"]
+- !private ["SH", "libraryDirectory"]
+- !private ["SH", "main"]
+- !private ["SH", "path"]
+- ["SH", "register"]
+- ["SH", "registerWithRegistrar"]
+- ["SH", "temp"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "DirectoryType"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "FlutterPluginRegistrar"]
+- !private ["So8NSObjectC", "PathProviderApiSetup"]
+- !private ["So8NSObjectC", "PathProviderPlugin"]
+- ["So8NSObjectC", "SearchPathDirectory"]
+- !private ["So8NSObjectC", "SearchPathDomainMask"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "containerURL"]
+- !private ["So8NSObjectC", "containerURLForSecurityApplicationGroupIdentifier"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileManagerDirectoryForType"]
+- ["So8NSObjectC", "getContainerPath"]
+- !private ["So8NSObjectC", "getDirectory"]
+- ["So8NSObjectC", "getDirectoryPath"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "handleMethodCall"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerWithRegistrar"]
+- !private ["So8NSObjectP", "Bundle"]
+- ["So8NSObjectP", "DirectoryType"]
+- !private ["So8NSObjectP", "FileManager"]
+- ["So8NSObjectP", "FlutterPluginRegistrar"]
+- !private ["So8NSObjectP", "PathProviderApiSetup"]
+- !private ["So8NSObjectP", "PathProviderPlugin"]
+- ["So8NSObjectP", "SearchPathDirectory"]
+- !private ["So8NSObjectP", "SearchPathDomainMask"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bundleIdentifier"]
+- !private ["So8NSObjectP", "containerURL"]
+- !private ["So8NSObjectP", "containerURLForSecurityApplicationGroupIdentifier"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "fileManagerDirectoryForType"]
+- ["So8NSObjectP", "getContainerPath"]
+- !private ["So8NSObjectP", "getDirectory"]
+- ["So8NSObjectP", "getDirectoryPath"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "handleMethodCall"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "messenger"]
+- ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "registerWithRegistrar"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["24path_provider_foundation15PathProviderApiP", "Bundle"]
+- !private ["24path_provider_foundation15PathProviderApiP", "FileManager"]
+- !private ["24path_provider_foundation15PathProviderApiP", "PathProviderApiSetup"]
+- !private ["24path_provider_foundation15PathProviderApiP", "PathProviderPlugin"]
+- !private ["24path_provider_foundation15PathProviderApiP", "URL"]
+- ["24path_provider_foundation15PathProviderApiP", ""]
+- !private ["24path_provider_foundation15PathProviderApiP", "fileManagerDirectoryForType"]
+- ["24path_provider_foundation15PathProviderApiP", "getContainerPath"]
+- !private ["24path_provider_foundation15PathProviderApiP", "getDirectory"]
+- ["24path_provider_foundation15PathProviderApiP", "getDirectoryPath"]
+- ["24path_provider_foundation15PathProviderApiP", "handle"]
+- ["24path_provider_foundation15PathProviderApiP", "handleMethodCall"]
+- !private ["24path_provider_foundation15PathProviderApiP", "init"]
+- ["24path_provider_foundation15PathProviderApiP", "register"]
+- ["24path_provider_foundation15PathProviderApiP", "registerWithRegistrar"]
+- !private ["24path_provider_foundation20PathProviderApiSetupC", "setUp"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "Bundle"]
+- ["24path_provider_foundation18PathProviderPluginC", "DirectoryType"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "FileManager"]
+- ["24path_provider_foundation18PathProviderPluginC", "FlutterPluginRegistrar"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "PathProviderApiSetup"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "PathProviderPlugin"]
+- ["24path_provider_foundation18PathProviderPluginC", "String"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "URL"]
+- ["24path_provider_foundation18PathProviderPluginC", ""]
+- ["24path_provider_foundation18PathProviderPluginC", "deinit"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "fileManagerDirectoryForType"]
+- ["24path_provider_foundation18PathProviderPluginC", "getContainerPath"]
+- !private ["24path_provider_foundation18PathProviderPluginC", "getDirectory"]
+- ["24path_provider_foundation18PathProviderPluginC", "getDirectoryPath"]
+- ["24path_provider_foundation18PathProviderPluginC", "handle"]
+- ["24path_provider_foundation18PathProviderPluginC", "handleMethodCall"]
+- ["24path_provider_foundation18PathProviderPluginC", "init"]
+- ["24path_provider_foundation18PathProviderPluginC", "register"]
+- ["24path_provider_foundation18PathProviderPluginC", "registerWithRegistrar"]
+- !private ["Sk", ""]
+- !private ["Sk", "first"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["SY", ""]
+- ["SY", "applicationDocuments"]
+- ["SY", "applicationSupport"]
+- !private ["SY", "applicationSupportDirectory"]
+- !private ["SY", "cachesDirectory"]
+- !private ["SY", "documentDirectory"]
+- ["SY", "downloads"]
+- !private ["SY", "downloadsDirectory"]
+- ["SY", "library"]
+- !private ["SY", "libraryDirectory"]
+- ["SY", "temp"]
+- !private ["SY", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So21NSSearchPathDirectoryV", "applicationSupportDirectory"]
+- !private ["So21NSSearchPathDirectoryV", "cachesDirectory"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So21NSSearchPathDirectoryV", "downloadsDirectory"]
+- !private ["So21NSSearchPathDirectoryV", "libraryDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", ""]
+- !private ["ST", "first"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PathProviderApiSetup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PathProviderPlugin"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDomainMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "containerURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileManagerDirectoryForType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getContainerPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDirectory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getDirectoryPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handleMethodCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "registerWithRegistrar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PathProviderApiSetup"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PathProviderPlugin"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SearchPathDirectory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SearchPathDomainMask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bundleIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "containerURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileManagerDirectoryForType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getContainerPath"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getDirectory"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getDirectoryPath"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleMethodCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerWithRegistrar"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "24path_provider_foundation13DirectoryTypeO"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So13NSFileManagerC"
+- "So13FlutterPluginP"
+- !private "So22FlutterPluginRegistrarP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- "24path_provider_foundation15PathProviderApiP"
+- !private "24path_provider_foundation20PathProviderApiSetupC"
+- "24path_provider_foundation18PathProviderPluginC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/prinzeonokey/Desktop/newapp/movieapp/macos/Pods/Target Support Files/path_provider_foundation/path_provider_foundation-umbrella.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/prinzeonokey/Desktop/newapp/movieapp/build/macos/Build/Intermediates.noindex/Pods.build/Debug/path_provider_foundation.build/unextended-module.modulemap"
+- "/Users/prinzeonokey/Desktop/dev/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "583c0805febf36b39c317d5dde0563dc"

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "397c7b7d55ffffe3ee153af395c6be5f"
+build_time: [1686864067, 375650000]
+inputs:
+  "/Users/prinzeonokey/Desktop/newapp/movieapp/macos/Runner/MainFlutterWindow.swift": [1684361943, 0]
+  "/Users/prinzeonokey/Desktop/newapp/movieapp/macos/Runner/AppDelegate.swift": [1684361943, 0]
+  "/Users/prinzeonokey/Desktop/newapp/movieapp/macos/Flutter/GeneratedPluginRegistrant.swift": [1686864048, 811665512]

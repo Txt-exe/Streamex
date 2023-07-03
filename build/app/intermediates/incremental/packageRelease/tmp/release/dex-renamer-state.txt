@@ -1,0 +1,4 @@
+#Mon Jun 19 20:56:04 CDT 2023
+base.0=C\:\\Users\\Chiave\\Desktop\\movieapp\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
