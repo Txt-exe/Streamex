@@ -1,4 +1,7 @@
 GUI Will be built in Flutter
 Logic will be built in Python
 server side will be built in Firebase
-IOS will have some objective C capabilities 
+IOS will have some objective C capabilities
+use Flutter for devloping plugins
+use several Flask App routes for each JSON file
+TMDB is the main provider for Movie and TV info
