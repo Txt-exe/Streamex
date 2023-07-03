@@ -1,6 +1,6 @@
 // Step 1
 import 'package:flutter/material.dart';
-
+import 'package:http/http.dart';
 void main() {
 // Giving command to runApp() to run the app.
 
@@ -19,6 +19,11 @@ class StreamexApp extends StatefulWidget{
 
 class _StreamexAppState extends State<StreamexApp>{
 
+  Future<void> getSomedata(url) async {
+    Response response = await get(url);
+    
+
+  }
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
