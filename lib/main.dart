@@ -17,7 +17,7 @@ void main() {
 
 /* The purpose of the runApp() function is to attach
 the given widget to the screen. */
-  runApp(StreamexApp());
+  runApp(const StreamexApp());
   printData();
 }
 
