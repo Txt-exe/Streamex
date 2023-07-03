@@ -3,11 +3,7 @@ import 'package:http/http.dart';
 
 class RequestData extends StatelessWidget{
   const RequestData({super.key});
-
-  testFunc(){
-
-
-  }
+  
   static Future getSomeData(url) async {
     Response response = await get(url);
     return response.body;
@@ -15,11 +11,10 @@ class RequestData extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-   return Container(
+    return Container(
 
 
-
-   );
+    );
   }
 
 
