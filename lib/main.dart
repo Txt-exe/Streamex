@@ -10,7 +10,7 @@ Logger newlog = Logger();
 //Test Function for testing connection with python server
 Future printData(bool debug_option) async {
 
-  var data = await RequestData.getSomeData(Uri.parse('http://10.0.2.2:5000/mpopular_m'));
+  var data = await RequestData.getMediaData(Uri.parse('http://10.0.2.2:5000/mpopular_m'));
   var decodedData = jsonDecode(data);
 
   if(debug_option == true){
