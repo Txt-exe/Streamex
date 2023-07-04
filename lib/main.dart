@@ -19,7 +19,7 @@ Future printData(bool debug_option) async {
     newlog.i(decodedData['results']);
   }
     else{
-
+//
 
   }
 }
