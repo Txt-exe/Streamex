@@ -6,6 +6,8 @@ import 'package:movieapp/utils/utils/requestdata.dart';
 import 'package:logger/logger.dart';
 
 Logger newlog = Logger();
+
+//Test Function for testing connection with python server
 Future printData(bool debug_option) async {
 
   var data = await RequestData.getSomeData(Uri.parse('http://10.0.2.2:5000/mpopular_m'));
@@ -42,6 +44,7 @@ class _StreamexAppState extends State<StreamexApp>{
 
 
 
+  @override
   Widget build(BuildContext context) {
 
     return const MaterialApp(
