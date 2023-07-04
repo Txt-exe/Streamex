@@ -47,14 +47,71 @@ class _StreamexAppState extends State<StreamexApp>{
   @override
   Widget build(BuildContext context) {
 
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
+      backgroundColor: Colors.black45,
+        appBar: AppBar(
+          title: Text(''),
+          backgroundColor: Colors.black45,
+        ),
+        //Hamburger Menu
+        drawer: Drawer(
 
-        body: SizedBox(
+          child: Container(
+            color: Colors.black45,
+            child: ListView(
+              padding: EdgeInsets.zero,
+              children: [
+                const DrawerHeader(
+                  decoration: BoxDecoration(
+                    color: Colors.black54,
+                  ),
+                  child: Text('Navigation',
+                    style: TextStyle(
+                      fontSize: 56,
 
+                      color: Colors.black
+                    ),
 
-          height: 30,
-          width: 30,
+                  ),
+
+                ),
+                ListTile(
+                  title: const Text('Movies', style: TextStyle(
+
+                      color: Colors.white
+                  ),),
+                  onTap: () {
+                    // Update the state of the app.
+
+                  },
+                ),
+                ListTile(
+                  title: const Text('Tv Shows', style: TextStyle(
+
+                      color: Colors.white
+                  ),),
+                  onTap: () {
+                    // Update the state of the app.
+                    // ...
+                  },
+                ),
+
+                ListTile(
+                  title: const Text('Add-Ons', style: TextStyle(
+
+                      color: Colors.white
+                  ),),
+                  onTap: () {
+                    // Update the state of the app.
+                    // ...
+                  },
+                ),
+
+              ],
+
+            ),
+          ),
         ),
       ),
     );
