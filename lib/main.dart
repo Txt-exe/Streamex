@@ -26,7 +26,7 @@ void main() {
 /* The purpose of the runApp() function is to attach
 the given widget to the screen. */
   runApp(const StreamexApp());
-  printData(true);
+  printData(false);
 }
 
 class StreamexApp extends StatefulWidget{
@@ -44,10 +44,10 @@ class _StreamexAppState extends State<StreamexApp>{
 
   Widget build(BuildContext context) {
 
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
 
-        body: Container(
+        body: SizedBox(
 
 
           height: 30,
