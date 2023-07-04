@@ -1,6 +1,7 @@
 // Step 1
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:http/http.dart';
 import 'package:movieapp/utils/utils/requestdata.dart';
 import 'package:logger/logger.dart';
@@ -47,69 +48,77 @@ class _StreamexAppState extends State<StreamexApp>{
   @override
   Widget build(BuildContext context) {
 
-    return MaterialApp(
-      home: Scaffold(
-      backgroundColor: Colors.black45,
-        appBar: AppBar(
-          title: Text(''),
-          backgroundColor: Colors.black45,
-        ),
-        //Hamburger Menu
-        drawer: Drawer(
+    return Shortcuts(
+      shortcuts: <LogicalKeySet, Intent>{
 
-          child: Container(
-            color: Colors.black45,
-            child: ListView(
-              padding: EdgeInsets.zero,
-              children: [
-                const DrawerHeader(
-                  decoration: BoxDecoration(
-                    color: Colors.black54,
-                  ),
-                  child: Text('Navigation',
-                    style: TextStyle(
-                      fontSize: 56,
+        LogicalKeySet(LogicalKeyboardKey.select): ActivateIntent(),
 
-                      color: Colors.black
+      },
+
+      child: MaterialApp(
+        home: Scaffold(
+        backgroundColor: Colors.black45,
+          appBar: AppBar(
+            title: Text(''),
+            backgroundColor: Colors.black45,
+          ),
+          //Hamburger Menu
+          drawer: Drawer(
+
+            child: Container(
+              color: Colors.black45,
+              child: ListView(
+                padding: EdgeInsets.zero,
+                children: [
+                  const DrawerHeader(
+                    decoration: BoxDecoration(
+                      color: Colors.black54,
+                    ),
+                    child: Text('Navigation',
+                      style: TextStyle(
+                        fontSize: 56,
+
+                        color: Colors.black
+                      ),
+
                     ),
 
                   ),
+                  ListTile(
+                    title: const Text('Movies', style: TextStyle(
 
-                ),
-                ListTile(
-                  title: const Text('Movies', style: TextStyle(
+                        color: Colors.white
+                    ),),
+                    onTap: () {
+                      // Update the state of the app.
 
-                      color: Colors.white
-                  ),),
-                  onTap: () {
-                    // Update the state of the app.
+                    },
+                  ),
+                  ListTile(
+                    title: const Text('Tv Shows', style: TextStyle(
 
-                  },
-                ),
-                ListTile(
-                  title: const Text('Tv Shows', style: TextStyle(
+                        color: Colors.white
+                    ),),
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+                    },
+                  ),
 
-                      color: Colors.white
-                  ),),
-                  onTap: () {
-                    // Update the state of the app.
-                    // ...
-                  },
-                ),
+                  ListTile(
+                    title: const Text('Add-Ons', style: TextStyle(
 
-                ListTile(
-                  title: const Text('Add-Ons', style: TextStyle(
+                        color: Colors.white
+                    ),),
+                    onTap: () {
+                      // Update the state of the app.
+                      // ...
+                    },
+                  ),
 
-                      color: Colors.white
-                  ),),
-                  onTap: () {
-                    // Update the state of the app.
-                    // ...
-                  },
-                ),
+                ],
 
-              ],
-
+              ),
             ),
           ),
         ),
