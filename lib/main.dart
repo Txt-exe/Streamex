@@ -3,14 +3,22 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:movieapp/utils/utils/requestdata.dart';
+import 'package:logger/logger.dart';
 
-Future printData() async {
+Logger newlog = Logger();
+Future printData(bool debug_option) async {
 
-  var data = await RequestData.getSomeData(Uri.parse('http://10.0.2.2:5000//mpopular_m'));
+  var data = await RequestData.getSomeData(Uri.parse('http://10.0.2.2:5000/mpopular_m'));
   var decodedData = jsonDecode(data);
-  print(decodedData['results']);
-  print("hi");
 
+  if(debug_option == true){
+
+    newlog.i(decodedData['results']);
+  }
+    else{
+
+
+  }
 }
 void main() {
 // Giving command to runApp() to run the app.
@@ -18,7 +26,7 @@ void main() {
 /* The purpose of the runApp() function is to attach
 the given widget to the screen. */
   runApp(const StreamexApp());
-  printData();
+  printData(true);
 }
 
 class StreamexApp extends StatefulWidget{
@@ -42,6 +50,8 @@ class _StreamexAppState extends State<StreamexApp>{
         body: Container(
 
 
+          height: 30,
+          width: 30,
         ),
       ),
     );

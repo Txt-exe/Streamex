@@ -3,7 +3,7 @@ import 'package:http/http.dart';
 
 class RequestData extends StatelessWidget{
   const RequestData({super.key});
-  
+
   static Future getSomeData(url) async {
     Response response = await get(url);
     return response.body;
