@@ -70,18 +70,22 @@ class _StreamexAppState extends State<StreamexApp>{
               child: ListView(
                 padding: EdgeInsets.zero,
                 children: [
-                  const DrawerHeader(
-                    decoration: BoxDecoration(
+                    DrawerHeader(
+                    decoration: const BoxDecoration(
                       color: Colors.black54,
                     ),
-                    child: Text('Navigation',
-                      style: TextStyle(
-                        fontSize: 56,
+                    child: Padding(
+                      padding: const EdgeInsets.only(right: 220, bottom: 100),
+                      child: IconButton(iconSize: 30,
+                        splashRadius: 20,
+                        //padding: EdgeInsets.only(right: 260, bottom: 240),
+                        icon:  const Icon(Icons.account_box_outlined), onPressed: () {
 
-                        color: Colors.black
+
+                        },
+
                       ),
-
-                    ),
+                    )
 
                   ),
                   ListTile(
@@ -113,6 +117,29 @@ class _StreamexAppState extends State<StreamexApp>{
                     onTap: () {
                       // Update the state of the app.
                       // ...
+                    },
+                  ),
+
+                  ListTile(
+                    shape: Border.all(color: Colors.white70, width: 5.0),
+                    title: const Text('Skins', style: TextStyle(
+
+                        color: Colors.white
+                    ),),
+                    onTap: () {
+                      // Update the state of the app.
+
+                    },
+                  ),
+                  ListTile(
+                    shape: Border.all(color: Colors.white, width: 5.0),
+                    title: const Text('Profile', style: TextStyle(
+
+                        color: Colors.white
+                    ),),
+                    onTap: () {
+                      // Update the state of the app.
+
                     },
                   ),
 
