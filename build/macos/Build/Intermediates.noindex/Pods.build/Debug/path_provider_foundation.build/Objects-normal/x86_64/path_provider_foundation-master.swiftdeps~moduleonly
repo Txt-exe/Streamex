@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "bf8e03c654b5b630f32aff0a081f6e69"
-build_time: [1687032086, 309025000]
-inputs:
-  "/Users/prinzeonokey/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.3/darwin/Classes/messages.g.swift": !dirty [1686260374, 852430887]
-  "/Users/prinzeonokey/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.3/darwin/Classes/PathProviderPlugin.swift": [1686260374, 861983693]
