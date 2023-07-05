@@ -1,4 +1,0 @@
-#Tue Jul 04 22:25:03 CDT 2023
-base.0=C\:\\Users\\Chiave\\Desktop\\Apps\\Streamex\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
