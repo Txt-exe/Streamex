@@ -2,7 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:logger/logger.dart';
-
+import 'streamexapi/skins/sskins.dart';
+import 'package:movieapp/utils/utils/createfolder.dart';
 Logger newlog = Logger();
 
 void main() {
@@ -11,6 +12,7 @@ void main() {
 /* The purpose of the runApp() function is to attach
 the given widget to the screen. */
   runApp(const StreamexApp());
+  AppUtil.createInitFolder();
 }
 
 class StreamexApp extends StatefulWidget{
@@ -23,25 +25,22 @@ class StreamexApp extends StatefulWidget{
 
 class _StreamexAppState extends State<StreamexApp>{
 
-
-
-
   @override
   Widget build(BuildContext context) {
 
     return Shortcuts(
       shortcuts: <LogicalKeySet, Intent>{
 
-        LogicalKeySet(LogicalKeyboardKey.select): ActivateIntent(),
+        LogicalKeySet(LogicalKeyboardKey.select): const ActivateIntent(),
 
       },
 
       child: MaterialApp(
         home: Scaffold(
-        backgroundColor: Colors.black45,
+        backgroundColor: Skins.background_color,
           appBar: AppBar(
             title: Text(''),
-            backgroundColor: Colors.black45,
+            backgroundColor: Colors.greenAccent,
           ),
           //Hamburger Menu
           drawer: Drawer(
