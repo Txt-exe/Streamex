@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:logger/logger.dart';
 import 'streamexapi/skins/sskins.dart';
 import 'package:movieapp/utils/utils/createfolder.dart';
+import 'package:movieapp/skins/default/defaultskin.dart';
 Logger newlog = Logger();
 
 void main() {
@@ -13,6 +14,7 @@ void main() {
 the given widget to the screen. */
   runApp(const StreamexApp());
   AppUtil.createInitFolder();
+MyNewSkin.activateSkin();
 }
 
 class StreamexApp extends StatefulWidget{
