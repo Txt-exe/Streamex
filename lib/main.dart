@@ -43,7 +43,7 @@ class _StreamexAppState extends State<StreamexApp>{
         home: Scaffold(
         backgroundColor: Skins.background_color,
           appBar: AppBar(
-            title: Text(''),
+            title: const Text(''),
             backgroundColor: Colors.greenAccent,
           ),
           //Hamburger Menu

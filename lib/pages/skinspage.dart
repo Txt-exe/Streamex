@@ -37,7 +37,7 @@ class _SkinsPage extends State<SkinsPage>{
                   ),
 
                   appBar: AppBar(
-                    title: Text(''),
+                    title: const Text(''),
                     backgroundColor: Colors.greenAccent,
                   )
 

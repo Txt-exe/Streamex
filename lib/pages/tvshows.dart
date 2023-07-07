@@ -37,7 +37,7 @@ class _TvShows extends State<TvShows>{
                   ),
 
                   appBar: AppBar(
-                    title: Text(''),
+                    title: const Text(''),
                     backgroundColor: Colors.greenAccent,
                   )
 

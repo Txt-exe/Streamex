@@ -39,7 +39,7 @@ class _MoviePage extends State<MoviePage>{
                 ),
 
         appBar: AppBar(
-          title: Text(''),
+          title: const Text(''),
           backgroundColor: Colors.greenAccent,
               )
 
