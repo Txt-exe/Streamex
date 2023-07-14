@@ -5,8 +5,10 @@ import 'package:movieapp/pages/movies.dart';
 import 'package:movieapp/pages/profile.dart';
 import 'package:movieapp/pages/skinspage.dart';
 import 'package:movieapp/pages/tvshows.dart';
-
+import 'package:movieapp/pages/sidebar.dart';
+import 'package:movieapp/streamexapi/text/stext.dart';
 import 'addonspage.dart';
+
 class SideBarPage extends StatefulWidget{
   const SideBarPage({ super.key });
   @override
@@ -47,10 +49,7 @@ class _SideBarPage extends State<SideBarPage>{
 
                       ),
                       ListTile(
-                        title: const Text('Movies', style: TextStyle(
-
-                            color: Colors.white
-                        ),),
+                        title: StreamxText(text: 'Movies'),
                         onTap: () {
                           Navigator.push(
                               context,

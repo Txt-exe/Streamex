@@ -2,11 +2,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:logger/logger.dart';
-import 'package:movieapp/pages/tvshows.dart';
+import 'package:movieapp/pages/sidebar.dart';
+import 'package:movieapp/streamexapi/text/stext.dart';
 import 'streamexapi/skins/sskins.dart';
 import 'package:movieapp/utils/utils/createfolder.dart';
 import 'package:movieapp/skins/default/defaultskin.dart';
-import 'package:movieapp/pages/sidebar.dart';
 Logger newlog = Logger();
 
 void main() {
